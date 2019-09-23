@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerTwo", "PeerTwo\PeerTwo.csproj", "{85F09C6A-7172-4C4C-9EC6-9CA305F51F50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeerTwo", "PeerTwo\PeerTwo.csproj", "{85F09C6A-7172-4C4C-9EC6-9CA305F51F50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerOne", "PeerOne\PeerOne.csproj", "{5EA45A84-4A29-4259-9758-1B5E18AE5162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeerOne", "PeerOne\PeerOne.csproj", "{5EA45A84-4A29-4259-9758-1B5E18AE5162}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5E13A296-B81B-481D-B1B4-9ADA15D087BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,18 @@ Global
 		{5EA45A84-4A29-4259-9758-1B5E18AE5162}.Release|x64.Build.0 = Release|Any CPU
 		{5EA45A84-4A29-4259-9758-1B5E18AE5162}.Release|x86.ActiveCfg = Release|Any CPU
 		{5EA45A84-4A29-4259-9758-1B5E18AE5162}.Release|x86.Build.0 = Release|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Debug|x64.Build.0 = Debug|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Release|x64.ActiveCfg = Release|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Release|x64.Build.0 = Release|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E13A296-B81B-481D-B1B4-9ADA15D087BB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

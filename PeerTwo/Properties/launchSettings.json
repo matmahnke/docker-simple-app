@@ -24,19 +24,19 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+      "applicationUrl": "https://localhost:5003;http://localhost:5002"
     },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/values",
       "environmentVariables": {
-        "ASPNETCORE_URLS": "https://+:443;http://+:80",
-        "ASPNETCORE_HTTPS_PORT": "44319"
+        "ASPNETCORE_URLS": "https://+:444;http://+:81",
+        "ASPNETCORE_HTTPS_PORT": "44320"
       },
-      "httpPort": 59359,
+      "httpPort": 59360,
       "useSSL": true,
-      "sslPort": 44319
+      "sslPort": 44320
     }
   }
 }

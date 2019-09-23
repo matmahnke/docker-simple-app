@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  peerone:
+    image: ${DOCKER_REGISTRY-}peerone
+    build:
+      context: .
+      dockerfile: PeerOne/Dockerfile
+
+  peertwo:
+    image: ${DOCKER_REGISTRY-}peertwo
+    build:
+      context: .
+      dockerfile: PeerTwo/Dockerfile
+

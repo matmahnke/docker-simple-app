@@ -14,7 +14,7 @@ namespace PeerOne.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "peerone1" };
         }
 
         // GET api/values/5
